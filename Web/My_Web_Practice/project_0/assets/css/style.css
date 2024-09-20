@@ -1,0 +1,73 @@
+.my_button{
+    background-color: white;
+    color: black;
+    padding: 20px 50px;
+    border-radius: 50px;
+}
+.my_button:hover{
+    background-color: black;
+    color: white;
+    transition: all 1.0s;
+}
+#hero_section{
+    background-image: url(../images/banner1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+    text-align: center;
+    padding: 250px 0px;
+}
+.hero_text{
+    line-height: 15px;
+    margin-bottom:40px;
+}
+.hero_text h1{
+    font-size: 72px;
+    font-weight: 800;
+}
+.hero_text p{
+    font-size: 24px;
+    color: white;
+    font-weight: 500;
+}
+.hero_button{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+}
+.product_section_body {
+    padding: 100px 0px !important;
+}
+.section_header{
+    text-align: center;
+    line-height: 8px;
+}
+.section_header .green_header {
+    color: #16e816;
+}
+.section_header h2 {
+    font-size: 48px;
+    font-weight: 700px;
+}
+.products_list_area {
+    padding: 20px 200px;
+    text-align: center;
+}
+.product_list_area .row {
+    display: isolate;
+}
+.product_list_area .row .col {
+    width: 100%;
+    margin: 25px;
+    line-height: 30px;
+}
+.product_list_area .row .col .products_single a {
+    text-decoration: #16e816;
+    font-size: 24px;
+    font-weight: 600;
+}
+.products_single img {
+    height: 100px;
+    width: 100px;
+}
