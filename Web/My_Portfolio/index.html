@@ -3,31 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MY Site</title>
+    <title>Portfolio Website</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <!-- 
-    # Portfolio_Website
-    nav_bar_section
-    hero_section
-    projects_section
-    blogs_section
-    contact_section
-    footer_section
-     -->
+
+    <!-- Navigation Bar -->
     <header>
-
+        <nav>
+            <ul>
+                <li><a href="#about">About me</a></li>
+                <li><a href="#skills">My skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contacts</a></li>
+            </ul>
+        </nav>
     </header>
-    <main>
-        <section class="" id="hero_section"></section>
-        <section class="" id="projects_section"></section>
-        <section class="" id="blogs_section"></section>
-        <section class="" id="contact_section"></section>
 
-    </main>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Hi there! My name is [Your Name] and I'm a [Your Profession]</h1>
+            <button><a href="#">Download the CV</a></button>
+        </div>
+    </section>
+    <div class="hero-opacity">
+
+    </div>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About me</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2>My skills</h2>
+        <div class="skills-container">
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">SASS</div>
+            <div class="skill">JS</div>
+            <div class="skill">JQUERY</div>
+            <div class="skill">GIT</div>
+            <div class="skill">NPM</div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <h2>Portfolio</h2>
+        <div class="portfolio-container">
+            <div class="portfolio-item"> 
+                <img src="project1.jpg" alt="Project 1">
+                <p>Project 1</p>
+            </div>
+            <div class="portfolio-item"> 
+                <img src="project2.jpg" alt="Project 2">
+                <p>Project 2</p>
+            </div>
+            <div class="portfolio-item"> 
+                <img src="project3.jpg" alt="Project 3">
+                <p>Project 3</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contacts</h2>
+        <p>E-mail:bornabhowmik5@email.com</p>
+        <p>Telephone: +8801765422841</p>
+        <div class="social-media">
+            <a href="https://github.com/bornabhowmik">GitHub</a>
+            <a href="https://www.linkedin.com/in/bornabhowmik/">LinkedIn</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
     <footer>
-
+        <p>Copyright &copy; 2024 [Your Name]. All rights reserved.</p>
     </footer>
+
 </body>
 </html>
